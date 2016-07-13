@@ -1,4 +1,4 @@
-### Autoscale a Docker Swarm with Rancher Agents Linux VM Scale Set ###
+### Autoscale a Docker Swarm with Rancher Agents on a Linux VM Scale Set ###
 
 The following template deploys a Linux VM Scale Set integrated with Azure autoscale
 
