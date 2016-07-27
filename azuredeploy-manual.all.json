@@ -307,8 +307,8 @@
                   "properties": {
                     "publisher": "Microsoft.OSTCExtensions",
                     "type": "CustomScriptForLinux",
-                    "typeHandlerVersion": "1.4",
-                    "autoUpgradeMinorVersion": false,
+                    "typeHandlerVersion": "1.5",
+                    "autoUpgradeMinorVersion": true,
                     "settings": {
                       "fileUris": [
                         "https://raw.githubusercontent.com/jadbox/docker-rancher-scripts/master/agent-with-local-ip/rancher.sh"
