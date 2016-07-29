@@ -8,7 +8,7 @@
         "metadata": {
             "description": "Rancher Host API string"
         }
-    }
+    },
     "vmSku": {
       "type": "string",
       "defaultValue": "Standard_A1",
@@ -311,7 +311,7 @@
                     "autoUpgradeMinorVersion": false,
                     "settings": {
                       "fileUris": [
-                        "https://raw.githubusercontent.com/kvaes/docker-rancher-scripts/master/agent-with-local-ip/rancher.sh"
+                        "https://raw.githubusercontent.com/jadbox/docker-rancher-scripts/master/agent-with-local-ip/rancher.sh"
                       ],
                       "commandToExecute": "[concat('./rancher.sh ', parameters('rancherApi'))]"
                     }
@@ -338,9 +338,9 @@
           {
             "name": "Profile1",
             "capacity": {
-              "minimum": "1",
+              "minimum": "8",
               "maximum": "30",
-              "default": "1"
+              "default": "8"
             },
             "rules": [
               {
